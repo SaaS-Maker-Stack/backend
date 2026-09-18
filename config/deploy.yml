@@ -16,7 +16,7 @@ registry:
     - DOCKER_REGISTRY_PASSWORD
 
 # Inject ENV variables into containers (secrets come from .kamal/secrets).
-# Remember to run `kamal env push` after making changes!
+# Changes here or in .kamal/secrets take effect on the next `kamal deploy`.
 env:
   clear:
     PORT: 8090
